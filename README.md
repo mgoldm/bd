@@ -66,7 +66,7 @@ def family(self):
 Далее для каждой родительской таблицы так же реализуем добавление и удаление.
  ![image](https://user-images.githubusercontent.com/57058926/132247429-669e9770-e2a5-4bef-bc63-9983513961d8.png)
 Сам интерфейс
-...
+```
   def setupUi(self, MainWindow):
           MainWindow.setObjectName("MainWindow")
           MainWindow.resize(1108, 620)
@@ -147,7 +147,7 @@ def family(self):
           self.pushButton_9.setGeometry(QtCore.QRect(700, 400, 16, 23))
           self.pushButton_9.setObjectName("pushButton_9")
           MainWindow.setCentralWidget(self.centralwidget)
-      ...
+     ```
 В итоге получаем 
  ![image](https://user-images.githubusercontent.com/57058926/132247440-f1f631d9-878a-4dbd-af42-830d0bd21817.png)
 
