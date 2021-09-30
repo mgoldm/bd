@@ -25,10 +25,10 @@ u_id ставим Primary key для того, чтобы в дальнейше�
 ![image](https://user-images.githubusercontent.com/57058926/132247393-c03fecf9-c0b4-409e-bfe8-c46da342b528.png)
 
 Получаем такую таблицу
- ![image](https://user-images.githubusercontent.com/57058926/132247395-74159987-f7dc-434c-b9c7-67bbaeea4d22.png)
+![image](https://user-images.githubusercontent.com/57058926/132247395-74159987-f7dc-434c-b9c7-67bbaeea4d22.png)
 
 После этого с помощью команды join, объединим наши таблицы по ключу и получим: 
-  ![image](https://user-images.githubusercontent.com/57058926/132247400-f952c66c-32ca-4402-8d36-5bc6026856a0.png)
+![image](https://user-images.githubusercontent.com/57058926/132247400-f952c66c-32ca-4402-8d36-5bc6026856a0.png)
 ![image](https://user-images.githubusercontent.com/57058926/132247404-f350a332-465c-410c-a5a7-7e1c995e6a21.png)
 
  
@@ -147,22 +147,30 @@ def family(self):
           self.pushButton_9.setGeometry(QtCore.QRect(700, 400, 16, 23))
           self.pushButton_9.setObjectName("pushButton_9")
           MainWindow.setCentralWidget(self.centralwidget)
-     ```
+```
+
 В итоге получаем 
- ![image](https://user-images.githubusercontent.com/57058926/132247440-f1f631d9-878a-4dbd-af42-830d0bd21817.png)
+
+![image](https://user-images.githubusercontent.com/57058926/135399489-0f870c49-8ccf-4bec-b473-3ffe9fe0f32d.png)
 
 Тут мы можем добавлять в родительские таблицы элементы, а так же удалять их
 К примеру.
 В родительской таблице nam у нас есть несколько имен
  
- ![image](https://user-images.githubusercontent.com/57058926/132247449-eb5fab71-e707-4312-b825-b7204341abd3.png)
-![image](https://user-images.githubusercontent.com/57058926/132247452-e9905a16-4588-43d9-9f60-b849e7a8d624.png)
-![image](https://user-images.githubusercontent.com/57058926/132247457-dbfeda87-f5b1-42ed-b26e-4c5fb8f50a30.png)
+![image](https://user-images.githubusercontent.com/57058926/135399543-93593ea9-e8a1-4f3b-a9ec-c6c88d9d2e2f.png)
+
+![image](https://user-images.githubusercontent.com/57058926/135399548-0ee7e5d4-c1e8-4bb7-8721-5d52a08afe14.png)
+
+![image](https://user-images.githubusercontent.com/57058926/135399564-b4b6d14c-5393-488a-9037-a1d31c5b10c2.png)
+ 
+ 
+ 
 
  
 Вот мы его удалили из списка, теперь проверим нашу базу в pgadmin
 Как можно заметить он удалился и из нашей базы, следовательно программа работает и подключается к базе.
-![image](https://user-images.githubusercontent.com/57058926/132247459-3ccab479-89ee-4d6f-b536-4a11491218e2.png)
+
+![image](https://user-images.githubusercontent.com/57058926/135399588-8881ddbf-b003-4c00-91b2-cffe886c3f8a.png)
  
 
 
